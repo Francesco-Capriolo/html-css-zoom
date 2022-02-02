@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: black;
     font-family: sans-serif;
+    background-color: black;
 }
 
 /* classi comuni */
@@ -18,19 +18,20 @@ body {
 }
 
 .description-grid {
+    color: white;
     padding: 0.3rem 0.5rem;
     background-color: darkgrey;
-    color: white;
 }
 
 /* header */
 
 header {
+    min-width: 210px;
     height: 10vh;
-    flex-direction: row-reverse;
     gap: 20px;
     padding: .3rem;
     align-items: flex-start;
+    flex-direction: row-reverse;
 }
 
 header div {
@@ -41,17 +42,23 @@ header div {
 /* main */
 
 section {
+    min-width: 200px;
     width: 90%;
-    flex-wrap: wrap;
     margin: auto;
-    justify-content: center;
     overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .one-grid {
     height: 20vh;
-    flex: 0 1 220px;
+    flex: 0 0 12vw;
+    min-width: 150px;
     align-items: flex-end;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-image: url(../img/mountain-snow.jpg);
 }
+
+/* footer */
+
+footer {}
