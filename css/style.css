@@ -6,13 +6,21 @@
     padding: 0;
 }
 
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+/* classi comuni */
+
 .flex-container {
     display: flex;
 }
 
-body {
-    background-color: black;
-    font-family: sans-serif;
+.description-grid {
+    padding: 0.3rem 0.5rem;
+    background-color: darkgrey;
+    color: white;
 }
 
 /* header */
@@ -25,12 +33,25 @@ header {
     align-items: flex-start;
 }
 
-#header-grill {
-    padding: 0.3rem 0.5rem;
-    background-color: darkgrey;
-    color: white;
+header div {
     border-radius: 3px;
 }
 
 
 /* main */
+
+section {
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    overflow: auto;
+}
+
+.one-grid {
+    height: 20vh;
+    flex: 0 1 220px;
+    align-items: flex-end;
+    background-size: 100%;
+    background-image: url(../img/mountain-snow.jpg);
+}
