@@ -7,6 +7,7 @@
 }
 
 body {
+    color: white;
     font-family: sans-serif;
     background-color: black;
 }
@@ -18,7 +19,6 @@ body {
 }
 
 .description-grid {
-    color: white;
     padding: 0.3rem 0.5rem;
     background-color: darkgrey;
 }
@@ -27,7 +27,7 @@ body {
 
 header {
     min-width: 210px;
-    height: 10vh;
+    height: 6vh;
     gap: 20px;
     padding: .3rem;
     align-items: flex-start;
@@ -42,18 +42,20 @@ header div {
 /* main */
 
 section {
-    min-width: 200px;
+    min-width: 250px;
+    height: 80vh;
     width: 90%;
-    margin: auto;
     overflow: auto;
     flex-wrap: wrap;
+    gap: .8rem .5rem;
+    margin: 1rem auto;
     justify-content: center;
+    align-content: flex-start;
 }
 
 .one-grid {
     height: 20vh;
-    flex: 0 0 12vw;
-    min-width: 150px;
+    min-width: 200px;
     align-items: flex-end;
     background-size: 100% 100%;
     background-image: url(../img/mountain-snow.jpg);
@@ -61,4 +63,33 @@ section {
 
 /* footer */
 
-footer {}
+footer {
+    height: 10vh;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 255);
+    text-align: center;
+}
+
+footer nav {
+    align-items: center;
+    padding: 0 .5rem;
+}
+
+footer nav div {
+    padding: 0 .2rem;
+}
+
+footer div.icon i {
+    font-size: 1.6rem;
+    padding: 1rem 1rem .5rem 1rem;
+}
+
+footer div:nth-of-type(4) i {
+    color: rgba(75, 200, 0, 255);
+}
+
+footer nav:last-child {
+    background-color: rgba(74, 74, 74, 255);
+    color: red;
+    padding-left: 1.5rem;
+}
