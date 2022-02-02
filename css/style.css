@@ -6,12 +6,31 @@
     padding: 0;
 }
 
-body {
+.flex-container {
     display: flex;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
 }
 
 /* header */
 
 header {
     height: 10vh;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: .3rem;
+    align-items: flex-start;
 }
+
+#header-grill {
+    padding: 0.3rem 0.5rem;
+    background-color: darkgrey;
+    color: white;
+    border-radius: 3px;
+}
+
+
+/* main */
