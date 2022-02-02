@@ -47,14 +47,14 @@ section {
     width: 90%;
     overflow: auto;
     flex-wrap: wrap;
-    gap: .8rem .5rem;
+    gap: .5rem .3rem;
     margin: 1rem auto;
     justify-content: center;
     align-content: flex-start;
 }
 
 .one-grid {
-    height: 20vh;
+    height: 15vh;
     min-width: 200px;
     align-items: flex-end;
     background-size: 100% 100%;
@@ -91,5 +91,5 @@ footer div:nth-of-type(4) i {
 footer nav:last-child {
     background-color: rgba(74, 74, 74, 255);
     color: red;
-    padding-left: 1.5rem;
+    padding: 1rem;
 }
